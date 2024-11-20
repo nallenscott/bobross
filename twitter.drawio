@@ -129,8 +129,23 @@
         <mxCell id="7rh26Nzxe_kTH1MnesWK-56" value="We won&#39;t have any complex joins&lt;div&gt;on tweets. When a user requests&lt;/div&gt;&lt;div&gt;a tweet, we just need to return that&lt;/div&gt;&lt;div&gt;document.&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="620" y="90" width="210" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="7rh26Nzxe_kTH1MnesWK-59" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7rh26Nzxe_kTH1MnesWK-57" target="7rh26Nzxe_kTH1MnesWK-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="7rh26Nzxe_kTH1MnesWK-57" value="rate limiter" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="695" y="310" width="50" height="50" as="geometry" />
+          <mxGeometry x="680" y="350" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7rh26Nzxe_kTH1MnesWK-58" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" edge="1" parent="1" source="7rh26Nzxe_kTH1MnesWK-17" target="7rh26Nzxe_kTH1MnesWK-57">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="870" y="450" as="sourcePoint" />
+            <mxPoint x="950" y="450" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7rh26Nzxe_kTH1MnesWK-60" value="write" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7rh26Nzxe_kTH1MnesWK-58">
+          <mxGeometry x="0.3392" y="-2" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
