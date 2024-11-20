@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0.1 Safari/605.1.15" version="24.8.6">
   <diagram name="Page-1" id="yl6VplhR-ekL0wN9jrCL">
-    <mxGraphModel dx="3258" dy="2668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3256" dy="2668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,10 +11,10 @@
           <mxGeometry x="370" y="610" width="70" height="70" as="geometry" />
         </mxCell>
         <mxCell id="7rh26Nzxe_kTH1MnesWK-2" value="Functional Requirements&lt;div&gt;&lt;ol&gt;&lt;li&gt;Create an account and log in&lt;/li&gt;&lt;li&gt;Create, edit, and delete tweets&lt;/li&gt;&lt;li&gt;Follow other users&lt;/li&gt;&lt;li&gt;View a timeline of tweets from following&lt;/li&gt;&lt;li&gt;Like, reply, and retweet&lt;/li&gt;&lt;li&gt;Search for tweets&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-120" y="-100" width="270" height="140" as="geometry" />
+          <mxGeometry x="-310" y="35" width="270" height="140" as="geometry" />
         </mxCell>
         <mxCell id="7rh26Nzxe_kTH1MnesWK-3" value="Non-Functional Requirements&lt;div&gt;&lt;ol&gt;&lt;li&gt;Scale to 100+ millions of users&lt;/li&gt;&lt;li&gt;Handle high volume of tweets, likes, and retweets&lt;/li&gt;&lt;li&gt;Highly available (99.999% uptime)&lt;/li&gt;&lt;li&gt;Security and privacy of user data&lt;/li&gt;&lt;li&gt;Low latency&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-120" y="40" width="330" height="120" as="geometry" />
+          <mxGeometry x="-310" y="185" width="330" height="120" as="geometry" />
         </mxCell>
         <mxCell id="7rh26Nzxe_kTH1MnesWK-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" parent="1" source="7rh26Nzxe_kTH1MnesWK-15" target="7rh26Nzxe_kTH1MnesWK-16" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -427,16 +427,19 @@
           <mxGeometry x="570" y="1040" width="230" height="100" as="geometry" />
         </mxCell>
         <mxCell id="LVcmJT50i-SQsKUhWVvA-63" value="Security Requirements&lt;div&gt;&lt;ol&gt;&lt;li&gt;Authentication &amp;amp; Authorization&amp;nbsp;&lt;/li&gt;&lt;li&gt;Encryption (at rest and in transit)&lt;/li&gt;&lt;li&gt;Rate limiting&lt;/li&gt;&lt;li&gt;Input validation (SQL injection, XSS, etc.)&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-120" y="170" width="280" height="110" as="geometry" />
+          <mxGeometry x="-310" y="320" width="280" height="110" as="geometry" />
         </mxCell>
         <mxCell id="LVcmJT50i-SQsKUhWVvA-64" value="Observability Requirements&lt;div&gt;&lt;ol&gt;&lt;li&gt;Health checks (goes down, unresponsive)&lt;/li&gt;&lt;li&gt;Log all the things&lt;/li&gt;&lt;li&gt;Alerts&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-120" y="290" width="290" height="90" as="geometry" />
+          <mxGeometry x="-310" y="440" width="290" height="90" as="geometry" />
         </mxCell>
         <mxCell id="LVcmJT50i-SQsKUhWVvA-65" value="ELK" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="1">
           <mxGeometry x="1940" y="472.5" width="165" height="82.5" as="geometry" />
         </mxCell>
         <mxCell id="LVcmJT50i-SQsKUhWVvA-66" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="1870" y="-90" width="40" height="1210" as="geometry" />
+        </mxCell>
+        <mxCell id="LVcmJT50i-SQsKUhWVvA-67" value="Testing Requirements&lt;div&gt;&lt;ol&gt;&lt;li&gt;Load testing&lt;/li&gt;&lt;li&gt;Automated testing&lt;/li&gt;&lt;li&gt;Backup &amp;amp; recovery&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-310" y="540" width="160" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
