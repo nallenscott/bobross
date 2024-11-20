@@ -108,19 +108,29 @@
         <mxCell id="7rh26Nzxe_kTH1MnesWK-46" value="Profile Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="810" y="820" width="70" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="7rh26Nzxe_kTH1MnesWK-48" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7rh26Nzxe_kTH1MnesWK-47">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="895" y="224" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="7rh26Nzxe_kTH1MnesWK-47" value="Functional&lt;div&gt;&lt;ul&gt;&lt;li&gt;Create, edit, and delete&lt;/li&gt;&lt;li&gt;Likes and tweets&lt;/li&gt;&lt;li&gt;Store metadata&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;Non-functional&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;High throughput&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="970" y="60" width="190" height="150" as="geometry" />
-        </mxCell>
         <mxCell id="7rh26Nzxe_kTH1MnesWK-49" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="930" y="220" width="20" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="7rh26Nzxe_kTH1MnesWK-50" value="Tweet&amp;nbsp;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="7rh26Nzxe_kTH1MnesWK-50" value="Tweet Content" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="820" y="50" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7rh26Nzxe_kTH1MnesWK-52" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.mongodb" vertex="1" parent="1">
+          <mxGeometry x="790.88" y="50" width="19.12" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7rh26Nzxe_kTH1MnesWK-53" value="Media" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="910" y="50" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7rh26Nzxe_kTH1MnesWK-54" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.s3;fillColor=#E05243;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="980" y="50" width="24.68" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7rh26Nzxe_kTH1MnesWK-55" value="Built to handle vast amounts of&lt;div&gt;unstructured data and ensure that&lt;/div&gt;&lt;div&gt;media retrieval is super fast no&lt;/div&gt;&lt;div&gt;matter what the scale is&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="980" y="90" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="7rh26Nzxe_kTH1MnesWK-56" value="We won&#39;t have any complex joins&lt;div&gt;on tweets. When a user requests&lt;/div&gt;&lt;div&gt;a tweet, we just need to return that&lt;/div&gt;&lt;div&gt;document.&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="620" y="90" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="7rh26Nzxe_kTH1MnesWK-57" value="rate limiter" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="695" y="310" width="50" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
