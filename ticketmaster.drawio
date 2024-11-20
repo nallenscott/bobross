@@ -76,8 +76,8 @@
         <mxCell id="RG29Gt4kNFogIGyosR_q-21" value="Performer&lt;div&gt;&lt;ul&gt;&lt;li&gt;id&lt;/li&gt;&lt;li&gt;etc.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="900" y="440" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="RG29Gt4kNFogIGyosR_q-22" value="Ticket&lt;div&gt;&lt;ul&gt;&lt;li&gt;id&lt;/li&gt;&lt;li&gt;eventId&lt;/li&gt;&lt;li&gt;userId&lt;/li&gt;&lt;li&gt;seat&lt;/li&gt;&lt;li&gt;price&lt;/li&gt;&lt;li&gt;status: available, reserved, booked&lt;/li&gt;&lt;li&gt;reservedTimestamp&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1030" y="400" width="250" height="150" as="geometry" />
+        <mxCell id="RG29Gt4kNFogIGyosR_q-22" value="Ticket&lt;div&gt;&lt;ul&gt;&lt;li&gt;id&lt;/li&gt;&lt;li&gt;eventId&lt;/li&gt;&lt;li&gt;userId&lt;/li&gt;&lt;li&gt;seat&lt;/li&gt;&lt;li&gt;price&lt;/li&gt;&lt;li&gt;status: available, booked&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="400" width="200" height="140" as="geometry" />
         </mxCell>
         <mxCell id="RG29Gt4kNFogIGyosR_q-23" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Database_PostgreSQL_Server.svg;" vertex="1" parent="1">
           <mxGeometry x="858" y="295" width="22.5" height="30" as="geometry" />
@@ -117,6 +117,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="RG29Gt4kNFogIGyosR_q-52" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RG29Gt4kNFogIGyosR_q-36" target="RG29Gt4kNFogIGyosR_q-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="RG29Gt4kNFogIGyosR_q-36" value="Booking CRUD Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="610" y="440" width="70" height="70" as="geometry" />
         </mxCell>
@@ -138,6 +141,15 @@
         </mxCell>
         <mxCell id="RG29Gt4kNFogIGyosR_q-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="RG29Gt4kNFogIGyosR_q-42" target="RG29Gt4kNFogIGyosR_q-42">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RG29Gt4kNFogIGyosR_q-49" value="Ticket&lt;div&gt;Lock&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="773.09" y="452.5" width="65" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="RG29Gt4kNFogIGyosR_q-50" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;" vertex="1" parent="1">
+          <mxGeometry x="843.09" y="452.5" width="23.81" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RG29Gt4kNFogIGyosR_q-51" value="{ ticketId } TTL 10" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="760" y="530" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
