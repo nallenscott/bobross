@@ -1,9 +1,18 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0.1 Safari/605.1.15" version="24.8.6">
   <diagram name="Page-1" id="2PX046yWAE0F68nmA5gT">
-    <mxGraphModel>
+    <mxGraphModel dx="2479" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="RG29Gt4kNFogIGyosR_q-3" value="Functional Requirements&lt;div&gt;&lt;ol&gt;&lt;li&gt;Book tickets&lt;/li&gt;&lt;li&gt;View an event&lt;/li&gt;&lt;li&gt;Search for events&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="45" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="RG29Gt4kNFogIGyosR_q-4" value="Non-Functional Requirements&lt;div&gt;&lt;ol&gt;&lt;li&gt;Strong consistency for booking tickets, and high availability for search and viewing events&lt;/li&gt;&lt;li&gt;Read-write ratio, reads &amp;gt;&amp;gt; writes&amp;nbsp;&lt;/li&gt;&lt;li&gt;Scalability to handle surges from popular events&lt;/li&gt;&lt;/ol&gt;&lt;div&gt;-----&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Out of scope:&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;GDPR&lt;/li&gt;&lt;li&gt;Fault tolerance&lt;/li&gt;&lt;li&gt;etc.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="150" width="540" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="RG29Gt4kNFogIGyosR_q-5" value="Core Entities&lt;div&gt;&lt;ul&gt;&lt;li&gt;Event&lt;/li&gt;&lt;li&gt;Venue&lt;/li&gt;&lt;li&gt;Performer&lt;/li&gt;&lt;li&gt;Ticket&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="360" width="120" height="110" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
