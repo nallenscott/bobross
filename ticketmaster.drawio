@@ -16,8 +16,38 @@
         <mxCell id="RG29Gt4kNFogIGyosR_q-6" value="Core APIs&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;GET /event/:eventId → Event, Venue, Performer, Tickets&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;GET /search?term={terms}&amp;amp;location={locations}&amp;amp;type={types}&amp;amp;date={dates} → Partial Events&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;POST /booking/reserve&lt;/div&gt;&lt;div&gt;header: JWT | sessionToken&lt;/div&gt;&lt;div&gt;body: {&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;ticketId&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;PUT /booking/confirm&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;header: JWT | sessionToken&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;body: {&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;ticketId&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;paymentDetails (stripe as payment intent)&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-300" y="480" width="520" height="270" as="geometry" />
         </mxCell>
+        <mxCell id="RG29Gt4kNFogIGyosR_q-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="RG29Gt4kNFogIGyosR_q-7" target="RG29Gt4kNFogIGyosR_q-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="RG29Gt4kNFogIGyosR_q-7" value="Web/Mobile Client" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="290" y="300" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RG29Gt4kNFogIGyosR_q-16" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RG29Gt4kNFogIGyosR_q-9" target="RG29Gt4kNFogIGyosR_q-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RG29Gt4kNFogIGyosR_q-9" value="API Gateway" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="300" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RG29Gt4kNFogIGyosR_q-11" value="&lt;ul&gt;&lt;li&gt;Authentication&lt;/li&gt;&lt;li&gt;Rate limiting&lt;/li&gt;&lt;li&gt;Routing&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="410" y="370" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RG29Gt4kNFogIGyosR_q-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="200" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RG29Gt4kNFogIGyosR_q-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="190" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RG29Gt4kNFogIGyosR_q-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="RG29Gt4kNFogIGyosR_q-15" target="RG29Gt4kNFogIGyosR_q-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RG29Gt4kNFogIGyosR_q-15" value="Event CRUD Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="180" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RG29Gt4kNFogIGyosR_q-17" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="760" y="175" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RG29Gt4kNFogIGyosR_q-19" value="Event&lt;div&gt;&lt;ul&gt;&lt;li&gt;id&lt;/li&gt;&lt;li&gt;venueId&lt;/li&gt;&lt;li&gt;performerId&lt;/li&gt;&lt;li&gt;tickets[ ]&lt;/li&gt;&lt;li&gt;name&lt;/li&gt;&lt;li&gt;description&lt;/li&gt;&lt;li&gt;etc.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="830" y="170" width="130" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
