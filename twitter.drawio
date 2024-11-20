@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0.1 Safari/605.1.15" version="24.8.6">
   <diagram name="Page-1" id="yl6VplhR-ekL0wN9jrCL">
-    <mxGraphModel dx="3648" dy="3060" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3258" dy="2668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16,10 +16,15 @@
         <mxCell id="7rh26Nzxe_kTH1MnesWK-3" value="Non-Functional Requirements&lt;div&gt;&lt;ol&gt;&lt;li&gt;Scale to 100+ millions of users&lt;/li&gt;&lt;li&gt;Handle high volume of tweets, likes, and retweets&lt;/li&gt;&lt;li&gt;Highly available (99.999% uptime)&lt;/li&gt;&lt;li&gt;Security and privacy of user data&lt;/li&gt;&lt;li&gt;Low latency&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-120" y="40" width="330" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="7rh26Nzxe_kTH1MnesWK-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7rh26Nzxe_kTH1MnesWK-15" target="7rh26Nzxe_kTH1MnesWK-16" edge="1">
+        <mxCell id="7rh26Nzxe_kTH1MnesWK-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" parent="1" source="7rh26Nzxe_kTH1MnesWK-15" target="7rh26Nzxe_kTH1MnesWK-16" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="127.5" y="635" as="sourcePoint" />
             <mxPoint x="210" y="635" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LVcmJT50i-SQsKUhWVvA-62" value="HTTPS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7rh26Nzxe_kTH1MnesWK-8">
+          <mxGeometry x="-0.025" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="7rh26Nzxe_kTH1MnesWK-10" value="Routing algorithm&lt;div&gt;&lt;ol&gt;&lt;li&gt;Round Robin: routes requests evenly across all servers&lt;/li&gt;&lt;li&gt;Least Connections: sends requests to the server with the fewest connections&lt;/li&gt;&lt;li&gt;IP Hash: routes based on IP, ensuring the same IP gets the same server for each request&lt;/li&gt;&lt;/ol&gt;&lt;div&gt;Layer&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;Layer 4: transport layer, e.g., TCP&lt;/li&gt;&lt;li&gt;Layer 7: application layer, e.g., HTTPS. Routes based on content like URL and HTTP headers&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
@@ -37,7 +42,7 @@
         <mxCell id="7rh26Nzxe_kTH1MnesWK-15" value="Web/Mobile Client" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="60" y="600" width="70" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="7rh26Nzxe_kTH1MnesWK-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7rh26Nzxe_kTH1MnesWK-16" target="7rh26Nzxe_kTH1MnesWK-17" edge="1">
+        <mxCell id="7rh26Nzxe_kTH1MnesWK-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" parent="1" source="7rh26Nzxe_kTH1MnesWK-16" target="7rh26Nzxe_kTH1MnesWK-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7rh26Nzxe_kTH1MnesWK-16" value="Load Balancer" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -82,7 +87,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="7rh26Nzxe_kTH1MnesWK-23" value="Load balancer distributes traffic to a fleet of servers&lt;div&gt;acting as our API Gateway.&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="7rh26Nzxe_kTH1MnesWK-23" value="Load balancer distributes traffic to a fleet of servers&lt;div&gt;acting as our API Gateway with IP rate limiting.&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="200" y="490" width="300" height="40" as="geometry" />
         </mxCell>
         <mxCell id="7rh26Nzxe_kTH1MnesWK-30" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -217,25 +222,28 @@
             <mxPoint y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7rh26Nzxe_kTH1MnesWK-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;" parent="1" source="7rh26Nzxe_kTH1MnesWK-64" target="7rh26Nzxe_kTH1MnesWK-53" edge="1">
+        <mxCell id="7rh26Nzxe_kTH1MnesWK-67" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;edgeStyle=orthogonalEdgeStyle;curved=1;" parent="1" source="7rh26Nzxe_kTH1MnesWK-64" target="7rh26Nzxe_kTH1MnesWK-53" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LVcmJT50i-SQsKUhWVvA-61" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1" source="7rh26Nzxe_kTH1MnesWK-64" target="7rh26Nzxe_kTH1MnesWK-15">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="441" />
-              <mxPoint x="940" />
+              <mxPoint x="451" y="170" />
+              <mxPoint x="95" y="170" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="7rh26Nzxe_kTH1MnesWK-64" value="CDN" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="400" y="42.5" width="82.5" height="55" as="geometry" />
+          <mxGeometry x="410" y="-70" width="82.5" height="55" as="geometry" />
         </mxCell>
         <mxCell id="7rh26Nzxe_kTH1MnesWK-69" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" parent="1" source="7rh26Nzxe_kTH1MnesWK-65" target="7rh26Nzxe_kTH1MnesWK-32" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7rh26Nzxe_kTH1MnesWK-65" value="Cache" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="690" y="320" width="75" height="50" as="geometry" />
+          <mxGeometry x="688.06" y="315" width="75" height="50" as="geometry" />
         </mxCell>
         <mxCell id="7rh26Nzxe_kTH1MnesWK-66" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;" parent="1" vertex="1">
-          <mxGeometry x="770.07" y="320" width="23.81" height="20" as="geometry" />
+          <mxGeometry x="768.13" y="315" width="23.81" height="20" as="geometry" />
         </mxCell>
         <mxCell id="7rh26Nzxe_kTH1MnesWK-70" value="Reply Content" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="999.12" y="365" width="60" height="80" as="geometry" />
@@ -417,6 +425,18 @@
         </mxCell>
         <mxCell id="LVcmJT50i-SQsKUhWVvA-57" value="Isolating authentication and access&lt;div&gt;management for tighter security, more&lt;/div&gt;&lt;div&gt;focused maintenance, and the flexibility&lt;/div&gt;&lt;div&gt;to integrate with other services and&lt;/div&gt;&lt;div&gt;3rd-party systems in the future without&lt;/div&gt;&lt;div&gt;tangling up our main user profile logic.&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="570" y="1040" width="230" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="LVcmJT50i-SQsKUhWVvA-63" value="Security Requirements&lt;div&gt;&lt;ol&gt;&lt;li&gt;Authentication &amp;amp; Authorization&amp;nbsp;&lt;/li&gt;&lt;li&gt;Encryption (at rest and in transit)&lt;/li&gt;&lt;li&gt;Rate limiting&lt;/li&gt;&lt;li&gt;Input validation (SQL injection, XSS, etc.)&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="170" width="280" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="LVcmJT50i-SQsKUhWVvA-64" value="Observability Requirements&lt;div&gt;&lt;ol&gt;&lt;li&gt;Health checks (goes down, unresponsive)&lt;/li&gt;&lt;li&gt;Log all the things&lt;/li&gt;&lt;li&gt;Alerts&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="290" width="290" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="LVcmJT50i-SQsKUhWVvA-65" value="ELK" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="1940" y="472.5" width="165" height="82.5" as="geometry" />
+        </mxCell>
+        <mxCell id="LVcmJT50i-SQsKUhWVvA-66" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1870" y="-90" width="40" height="1210" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
