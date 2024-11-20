@@ -64,6 +64,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="RG29Gt4kNFogIGyosR_q-56" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RG29Gt4kNFogIGyosR_q-17" target="RG29Gt4kNFogIGyosR_q-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RG29Gt4kNFogIGyosR_q-57" value="CDC" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RG29Gt4kNFogIGyosR_q-56">
+          <mxGeometry x="0.041" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="RG29Gt4kNFogIGyosR_q-17" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="790" y="295" width="60" height="80" as="geometry" />
         </mxCell>
@@ -153,6 +161,9 @@
         </mxCell>
         <mxCell id="RG29Gt4kNFogIGyosR_q-54" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.elasticsearch;" vertex="1" parent="1">
           <mxGeometry x="748.44" y="80" width="22.91" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="RG29Gt4kNFogIGyosR_q-55" value="playoff: [ event1, event2, event3 ]&lt;div&gt;another: [ event4, event5, eventN ]&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="790" y="72.5" width="210" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
