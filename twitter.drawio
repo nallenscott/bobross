@@ -85,6 +85,9 @@
         <mxCell id="7rh26Nzxe_kTH1MnesWK-62" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7rh26Nzxe_kTH1MnesWK-32" target="7rh26Nzxe_kTH1MnesWK-53">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="7rh26Nzxe_kTH1MnesWK-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="7rh26Nzxe_kTH1MnesWK-32" target="7rh26Nzxe_kTH1MnesWK-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="7rh26Nzxe_kTH1MnesWK-32" value="Tweet CRUD Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="810" y="220" width="70" height="70" as="geometry" />
         </mxCell>
@@ -100,14 +103,17 @@
         <mxCell id="7rh26Nzxe_kTH1MnesWK-36" value="&lt;div&gt;We&#39;ve opted for a microservice architecture,&lt;br&gt;&lt;/div&gt;&lt;div&gt;which just means that our service is broken down into&amp;nbsp;&lt;/div&gt;&lt;div&gt;smaller independent services that can communicate&lt;/div&gt;&lt;div&gt;with one another. And each of these services is&lt;/div&gt;&lt;div&gt;strictly responsible for a specific piece of functionality&lt;/div&gt;&lt;div&gt;within the larger system.&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="200" y="380" width="310" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="7rh26Nzxe_kTH1MnesWK-37" value="&lt;div&gt;Ability to scale replies&lt;/div&gt;&lt;div&gt;independently, particularly&lt;/div&gt;&lt;div&gt;crucial for things like viral&lt;/div&gt;&lt;div&gt;tweets.&lt;/div&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;Scalability&lt;/li&gt;&lt;li&gt;Performance&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="960" y="230" width="160" height="120" as="geometry" />
+        <mxCell id="7rh26Nzxe_kTH1MnesWK-37" value="&lt;div&gt;Ability to scale replies&lt;/div&gt;&lt;div&gt;independently, particularly&lt;/div&gt;&lt;div&gt;crucial for things like viral&lt;/div&gt;&lt;div&gt;tweets. Indexed by tweet id.&lt;/div&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;Scalability&lt;/li&gt;&lt;li&gt;Performance&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="960" y="230" width="170" height="120" as="geometry" />
         </mxCell>
         <mxCell id="7rh26Nzxe_kTH1MnesWK-38" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="830" y="540" width="70" height="70" as="geometry" />
         </mxCell>
         <mxCell id="7rh26Nzxe_kTH1MnesWK-39" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="820" y="530" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="7rh26Nzxe_kTH1MnesWK-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7rh26Nzxe_kTH1MnesWK-40" target="7rh26Nzxe_kTH1MnesWK-81">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7rh26Nzxe_kTH1MnesWK-40" value="Search Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="810" y="520" width="70" height="70" as="geometry" />
@@ -209,6 +215,15 @@
         </mxCell>
         <mxCell id="7rh26Nzxe_kTH1MnesWK-74" value="rate limiter" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="715" y="380" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7rh26Nzxe_kTH1MnesWK-81" value="Text-based Index" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="515" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7rh26Nzxe_kTH1MnesWK-82" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.elasticsearch;" vertex="1" parent="1">
+          <mxGeometry x="1068.44" y="515" width="22.91" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="7rh26Nzxe_kTH1MnesWK-84" value="Reverse Index On:&lt;div&gt;&lt;ul&gt;&lt;li&gt;Tweet content&lt;/li&gt;&lt;li&gt;Username&lt;/li&gt;&lt;li&gt;Hashtags&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="510" width="140" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
