@@ -79,8 +79,13 @@
         <mxCell id="7rh26Nzxe_kTH1MnesWK-31" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="820" y="230" width="70" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="7rh26Nzxe_kTH1MnesWK-61" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7rh26Nzxe_kTH1MnesWK-32" target="7rh26Nzxe_kTH1MnesWK-50">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="7rh26Nzxe_kTH1MnesWK-61" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="7rh26Nzxe_kTH1MnesWK-32" target="7rh26Nzxe_kTH1MnesWK-50">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="850" y="200" />
+              <mxPoint x="850" y="200" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="7rh26Nzxe_kTH1MnesWK-62" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7rh26Nzxe_kTH1MnesWK-32" target="7rh26Nzxe_kTH1MnesWK-53">
           <mxGeometry relative="1" as="geometry" />
@@ -224,6 +229,21 @@
         </mxCell>
         <mxCell id="7rh26Nzxe_kTH1MnesWK-84" value="&lt;div&gt;Distributed search engine designed for&lt;/div&gt;&lt;div&gt;huge datasets and low latency. A particularly&lt;/div&gt;&lt;div&gt;good choice for full text search. We&#39;ll reverse&lt;/div&gt;&lt;div&gt;index on:&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Tweet content&lt;/li&gt;&lt;li&gt;Username&lt;/li&gt;&lt;li&gt;Hashtags&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1120" y="510" width="260" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="7rh26Nzxe_kTH1MnesWK-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" edge="1" parent="1" source="7rh26Nzxe_kTH1MnesWK-50" target="7rh26Nzxe_kTH1MnesWK-81">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="850" y="180" />
+              <mxPoint x="1150" y="180" />
+              <mxPoint x="1150" y="470" />
+              <mxPoint x="1030" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7rh26Nzxe_kTH1MnesWK-86" value="change-data capture" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7rh26Nzxe_kTH1MnesWK-85">
+          <mxGeometry x="-0.5056" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
