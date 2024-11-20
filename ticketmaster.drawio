@@ -168,6 +168,14 @@
         <mxCell id="RG29Gt4kNFogIGyosR_q-59" value="AWS OpenSearch (cluster)&lt;div&gt;Supports node query caching and&lt;/div&gt;&lt;div&gt;caches the top 10k queries to each&lt;/div&gt;&lt;div&gt;instance or shard in a LRU cache&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="780" y="77.5" width="210" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="RG29Gt4kNFogIGyosR_q-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=oval;startFill=1;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="RG29Gt4kNFogIGyosR_q-60">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="395" y="329.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RG29Gt4kNFogIGyosR_q-60" value="Caching API calls with a CDN&lt;div&gt;&lt;br&gt;&lt;div&gt;Very fast, but breaks down as the API search&lt;/div&gt;&lt;div&gt;queries grow in complexity. For example, if the&lt;/div&gt;&lt;div&gt;query includes geolocation, that&#39;s too much&lt;br&gt;&lt;/div&gt;&lt;div&gt;precision, and no two users will ever hit the&lt;/div&gt;&lt;div&gt;same cache.&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="260" y="130" width="270" height="110" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
