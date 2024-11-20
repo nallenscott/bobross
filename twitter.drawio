@@ -1,9 +1,30 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.1.1 Safari/605.1.15" version="24.8.6">
   <diagram name="Page-1" id="yl6VplhR-ekL0wN9jrCL">
-    <mxGraphModel>
+    <mxGraphModel dx="1178" dy="700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="7rh26Nzxe_kTH1MnesWK-2" value="Functional Requirements&lt;div&gt;&lt;ol&gt;&lt;li&gt;Create an account and log in&lt;/li&gt;&lt;li&gt;Create, edit, and delete tweets&lt;/li&gt;&lt;li&gt;Follow other users&lt;/li&gt;&lt;li&gt;View a timeline of tweets from following&lt;/li&gt;&lt;li&gt;Like, reply, and retweet&lt;/li&gt;&lt;li&gt;Search for tweets&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="50" y="50" width="270" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="7rh26Nzxe_kTH1MnesWK-3" value="Non-Functional Requirements&lt;div&gt;&lt;ol&gt;&lt;li&gt;Scale to 100+ millions of users&lt;/li&gt;&lt;li&gt;Handle high volume of tweets, likes, and retweets&lt;/li&gt;&lt;li&gt;Highly available (99.999% uptime)&lt;/li&gt;&lt;li&gt;Security and privacy of user data&lt;/li&gt;&lt;li&gt;Low latency&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="50" y="190" width="330" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="7rh26Nzxe_kTH1MnesWK-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7rh26Nzxe_kTH1MnesWK-5" target="7rh26Nzxe_kTH1MnesWK-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7rh26Nzxe_kTH1MnesWK-5" value="Web/Mobile&lt;div&gt;Client&lt;/div&gt;" style="sketch=0;points=[[0.015,0.015,0],[0.985,0.015,0],[0.985,0.985,0],[0.015,0.985,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.handheld;fillColor=#005073;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="400" width="37.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7rh26Nzxe_kTH1MnesWK-7" value="Load Balancer" style="sketch=0;points=[[0.015,0.015,0],[0.985,0.015,0],[0.985,0.985,0],[0.015,0.985,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];verticalLabelPosition=top;html=1;verticalAlign=bottom;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.rect;prIcon=load_balancer;fillColor=#FAFAFA;strokeColor=#005073;labelPosition=center;" vertex="1" parent="1">
+          <mxGeometry x="200" y="400" width="64" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7rh26Nzxe_kTH1MnesWK-10" value="Routing algorithm&lt;div&gt;&lt;ol&gt;&lt;li&gt;Round Robin: routes requests evenly across all servers&lt;/li&gt;&lt;li&gt;Least Connections: sends requests to the server with the fewest connections&lt;/li&gt;&lt;li&gt;IP Hash: routes based on IP, ensuring the same IP gets the same server for each request&lt;/li&gt;&lt;/ol&gt;&lt;div&gt;Layer&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;Layer 4: transport layer, e.g., TCP&lt;/li&gt;&lt;li&gt;Layer 7: application layer, e.g., HTTPS. Routes based on content like URL and HTTP headers&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="550" width="560" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="7rh26Nzxe_kTH1MnesWK-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.102;entryY=-0.006;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7rh26Nzxe_kTH1MnesWK-7" target="7rh26Nzxe_kTH1MnesWK-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
