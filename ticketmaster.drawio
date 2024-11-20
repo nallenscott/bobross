@@ -39,6 +39,9 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="RG29Gt4kNFogIGyosR_q-63" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RG29Gt4kNFogIGyosR_q-9" target="RG29Gt4kNFogIGyosR_q-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="RG29Gt4kNFogIGyosR_q-9" value="API Gateway" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="430" y="300" width="70" height="70" as="geometry" />
         </mxCell>
@@ -175,6 +178,15 @@
         </mxCell>
         <mxCell id="RG29Gt4kNFogIGyosR_q-60" value="Caching API calls with a CDN&lt;div&gt;&lt;br&gt;&lt;div&gt;Very fast, but breaks down as the API search&lt;/div&gt;&lt;div&gt;queries grow in complexity. For example, if the&lt;/div&gt;&lt;div&gt;query includes geolocation, that&#39;s too much&lt;br&gt;&lt;/div&gt;&lt;div&gt;precision, and no two users will ever hit the&lt;/div&gt;&lt;div&gt;same cache.&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="260" y="130" width="270" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="RG29Gt4kNFogIGyosR_q-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RG29Gt4kNFogIGyosR_q-62" target="RG29Gt4kNFogIGyosR_q-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RG29Gt4kNFogIGyosR_q-62" value="Virtual Waiting Queue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="440" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RG29Gt4kNFogIGyosR_q-65" value="Admin enabled for&lt;div&gt;large events&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="460" y="520" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
