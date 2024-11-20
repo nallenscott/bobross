@@ -222,8 +222,8 @@
         <mxCell id="7rh26Nzxe_kTH1MnesWK-82" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.elasticsearch;" vertex="1" parent="1">
           <mxGeometry x="1068.44" y="515" width="22.91" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="7rh26Nzxe_kTH1MnesWK-84" value="Reverse Index On:&lt;div&gt;&lt;ul&gt;&lt;li&gt;Tweet content&lt;/li&gt;&lt;li&gt;Username&lt;/li&gt;&lt;li&gt;Hashtags&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1120" y="510" width="140" height="90" as="geometry" />
+        <mxCell id="7rh26Nzxe_kTH1MnesWK-84" value="&lt;div&gt;Distributed search engine designed for&lt;/div&gt;&lt;div&gt;huge datasets and low latency. A particularly&lt;/div&gt;&lt;div&gt;good choice for full text search. We&#39;ll reverse&lt;/div&gt;&lt;div&gt;index on:&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Tweet content&lt;/li&gt;&lt;li&gt;Username&lt;/li&gt;&lt;li&gt;Hashtags&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="510" width="260" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
